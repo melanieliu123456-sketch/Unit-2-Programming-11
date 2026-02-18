@@ -16,7 +16,7 @@ void draw() {
   background(255);
   fill(0);
   circle(x, y, 100);
-  fill(200, 100, 50);
+  fill(x, y, x+y);
   circle(x, y, 80);
   y = y + a;
   if (y > 180) {
